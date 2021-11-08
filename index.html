@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en class=" animated fadeIn"">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link ref="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link href="home.css" rel="stylesheet">
+  <title>Quote Website</title>
+</head>
+
+<!--quote to use: "Whenever you eliminate the impossible, whatever remains must be the truth" - Godot-->
+<!--I- really hope this isn't gonna turn out embarassing--->
+<!-- Or... I could just use the official Sherlock Holmes quote- that might be better hold up--->
+<!-- "Once you have elimated all which is impossible, then whatever remains, however improbible, must be the truth." - Aurther Conan Doyle... Sure let's do that-->
+<!--why isn't my code working I literally linked the css that's not the issue I did it right why won't it work-->
+
+<body background-color="gray">
+
+  <!--navbar, sections will include home, author -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="author.html">Author</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="book.html">Book</a>
+        </li>
+    </div>
+  </nav>
+  <!--image of Aurther Conan Doyle. Add description under with the quote-->
+  <div class="container">
+    <img
+      src="https://ca-times.brightspotcdn.com/dims4/default/cc29498/2147483647/strip/true/crop/2000x1576+0+0/resize/1486x1171!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fa9%2F0c%2Fea86e9f20a21d29999baa2344311%2Fla-et-jc-sir-arthur-conan-doyle-victim-of-poli-001"
+      height="300px" alt="Image of Auther Conan Doyle" class="center">
+    <h1 class="quote">"Once you have eliminated all which is impossible, then whatever remains, however improbable, must be the truth."</h1>
+    <!--table-->
+    <!--so my only problem rn is making the text show up since the color changed and I can't change it back-->
+    <!--nevermind I just- forgot what I'm doing ok-->
+    <table class="table">
+      <tr>
+        <th>Book</th>
+        <th>Author</th>
+      </tr>
+      <tr>
+        <td>
+          <div class="card">
+            <img src="CasebookofHolmes.png" alt="Photo gallery project" class=".card-img-top center" width="300px">
+            <div class="card-body mb-3">
+              <h5 class="card-title" id="title">The Case-Book of Sherlock Holmes</h5>
+              <a href="book.html" class="btn btn-primary">Explore</a>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="card">
+            <img src="ArtherConanDoylepic.png" alt="Photo gallery project" class=".card-img-top center" width="300px">
+            <div class="card-body mb-3">
+              <h5 class="card-title" id="title">Arther Conan Doyle</h5>
+              <a href="author.html" class="btn btn-primary">Explore</a>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>

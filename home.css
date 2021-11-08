@@ -1,0 +1,54 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quote {
+  text-align:center;
+  font-style: fantasy;
+  color: #e2e3dc;
+}
+
+table, tr, td {
+  border: 1px #e2e3dc;
+}
+
+.table {
+  text-align: center;
+}
+
+.nav-link {
+  padding: 50px
+  text-size: 30px;
+}
+
+body {
+  background-color: gray;
+}
+
+.card {
+  background-color: #e2e3dc;
+}
+
+tr {
+  color: #e2e3dc;
+}
+
+p {
+  color: #e2e3dc;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: #e2e3dc;
+  font-style: italic;
+}
+li, h3 {
+  color: #e2e3dc;
+}
+
+#title {
+  color: black;
+}
